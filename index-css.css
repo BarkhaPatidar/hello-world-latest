@@ -1,0 +1,72 @@
+.container {
+  align-content: center;
+  background-color: #383737;
+  border: 5px solid #dbaad3;
+  border-radius: 5px;
+  height: 700px;
+  text-align: center;
+  width: 700px;
+}
+.container .title-section h1 {
+  color: #f2f2f2;
+  font-size: 40px;
+  font-weight: 400;
+  margin: 10px;
+}
+.container .title-section .arrow-link {
+  background: #dbaad3;
+  border-radius: 2px;
+  display: inline-block;
+  height: 20px;
+  margin: 0 10px;
+  width: 20px;
+}
+.container .title-section .arrow-link a {
+  color: #0c0b0b;
+  text-decoration: none;
+}
+.container .title-section .month-select {
+  background: transparent;
+  border: none;
+  color: #f2f2f2;
+  font-size: 15px;
+  height: 30px;
+  margin: 0 0 10px 0;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+.container .main-cal {
+  margin: 10px 10px;
+  text-align: center;
+}
+.container .main-cal .cal-table {
+  border-radius: 2px;
+  width: 100%;
+}
+.container .main-cal .cal-table .days {
+  background: #dbaad3;
+  margin: 2px 2px;
+}
+.container .main-cal .cal-table .weeks {
+  background: #dbaad3;
+  margin: 2px 2px;
+}
+.container .main-cal .cal-table .weeks .day-of-week {
+  border-radius: 5px;
+  height: 60px;
+  padding: 10px 0px;
+  width: 100px;
+}
+.container .main-cal .cal-table .weeks .day-of-week-head {
+  border-radius: 5px;
+  height: 60px;
+  padding: 5px 0px;
+  width: 150px;
+}
+.container .main-cal .cal-table .active {
+  background-color: #383737;
+  border: 1px solid #dbaad3;
+  color: #f2f2f2;
+}
+
+/*# sourceMappingURL=index-css.css.map */

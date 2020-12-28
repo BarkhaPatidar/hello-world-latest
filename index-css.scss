@@ -1,0 +1,103 @@
+$primary-color : #383737;
+$secondary-color : #dbaad3;
+
+.container {
+
+    align-content: center;
+    background-color: $primary-color;
+    border: 5px solid $secondary-color;
+    border-radius: 5px;
+    height: 700px;
+    text-align: center;
+    width: 700px;
+
+    .title-section {
+
+        h1 {
+            color: #f2f2f2;
+            font-size: 40px;
+            font-weight: 400;
+            margin: 10px;
+        }
+
+        .arrow-link {
+
+            background: $secondary-color;
+            border-radius: 2px;
+            display: inline-block;
+            height: 20px;
+            margin: 0 10px;
+            width: 20px;
+
+            a {
+                color: #0c0b0b;
+                text-decoration: none;
+            }
+            
+
+        }
+
+
+        .month-select {
+
+            background: transparent;
+            border: none;
+            color: #f2f2f2;
+            font-size: 15px;
+            height: 30px;
+            margin: 0 0 10px 0;
+            -moz-appearance: none;
+            -webkit-appearance: none;
+
+        }
+
+    }
+
+    .main-cal {
+
+        margin : 10px 10px;
+        text-align: center;
+
+        .cal-table {
+            border-radius: 2px;
+            width: 100%;
+
+            .days {
+                background: $secondary-color;
+                margin: 2px 2px;
+            }
+
+            .weeks {
+                background: $secondary-color;
+                margin: 2px 2px;
+
+                .day-of-week {
+                    border-radius: 5px;
+                    height: 60px;
+                    padding: 10px 0px;
+                    width: 100px;
+                }
+
+                .day-of-week-head {
+                    border-radius: 5px;
+                    height: 60px;
+                    padding: 5px 0px;
+                    width: 150px;
+                }
+
+            }
+
+            .active {
+                background-color: $primary-color;
+                border: 1px solid $secondary-color;
+                color: #f2f2f2;
+            }
+
+        }
+
+       
+    }
+
+
+}
+
